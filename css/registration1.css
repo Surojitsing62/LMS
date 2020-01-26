@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Noto Sans;
+    src: url("../fonts/NotoSans-regular.ttf");
+}
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+.login {
+    background: #fff;
+    margin: 0 auto;
+    height: 450px;
+    width: 500px;
+    color: blueviolet;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, .1);
+    border-radius: 20px;
+  }
+
+  .login:hover
+{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+body {
+  background-image: url(lb_pic7.jpg);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  text-shadow: black;
+    font-weight: 800;
+}
+
+.login p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.login input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #FFF;
+  background: #f1f1f1;
+  outline: none;
+  height: 20px;
+  color: deeppink;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px;
+    padding-left: 15px;
+  border-radius: 20px;
+}
+.login input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  background: blueviolet;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 20px;
+  float: right;
+}
+
+.login input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: deeppink;
+  color: #fff;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ee82ee;
+
+}
+
+.login td {
+  padding: 10px;
+}
+  
+  .login a:hover
+  {
+    color: blue;
+  }

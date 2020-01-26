@@ -1,0 +1,132 @@
+body {
+  margin:0;
+  padding:0;
+}
+body:before{
+  content: "";
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('lb_pic7.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-filter: blur(5px);
+  -moz-filter:blur(5px);
+}
+.login {
+  background: transparent;
+  margin:0 auto;
+  height:400px;
+  width:300px;
+  color: blueviolet;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, .1);
+  margin-top: 100px;
+}
+
+.login:hover
+{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.login p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #FFF;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(241, 10, 10);
+  font-size: 16px;
+}
+
+.login input[type="submit"] 
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.login input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: rgb(202, 23, 143);
+  color: #fff;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(249, 249, 250);
+    float: right;
+}
+
+.login a:hover {
+    color: rgb(218, 214, 18);
+}
+.logout {
+    height: 20px;
+    width: 80px;
+    color: #fff;
+    background-color: darkred;
+    float: right;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #fff;
+}

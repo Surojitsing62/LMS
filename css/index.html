@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/material-icons.css">
+    <link rel="stylesheet" href="css/homepage1.css">
+    <link rel="stylesheet" href="css/Pretty-Footer.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top transparent">
+    <div class="container">
+        <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">CTS Library<i class="glyphicon glyphicon-book" id="nav-logo"></i></a>
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active" role="presentation"><a class="text-uppercase" href="#">HOME </a></li>
+                <li role="presentation"><a href="#about">ABOUT </a></li>
+                <li role="presentation"><a href="#Gallery">GALLERY </a></li>
+                <li role="presentation"><a href="#Contact">CONTACT </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div id="promo">
+        <div class="jumbotron">
+            <h1>CTS Library</h1>
+            <p>Knowledge is infinite like the distance of any galaxy, Acquire it and explore it to show your intelligence</p>
+            <a href="admin_login.php" class="btn btn-custom btn-lg page-scroll animated jello" style="margin-right:10px;">Admin Login</a>
+            <a href="stud_login.php" class="btn btn-custom btn-lg page-scroll animated jello" style="margin-left:10px;">Student Login</a>
+        </div>
+    </div>
+    <div class="container site-section" id="about">
+        <h1>About</h1>
+        <p>The Calcutta Technical School is a very old heritage of the city Kolkata. It is establish on 1927. The library of the CTS is maintained by <i><b>Mr. Surojit Sing</b></i> & <i><b>Mr. Ayan Sen</b></i>. Students can view, orders , lends books from the library. For this he/she should open a library account and then he get the all services of the <b>CTS Library</b>. But the number of maximum provided books among the students vary to their current standard. Such as student of 1st Year can get 2 maximumn books, 2nd year students can get 3 maximum books, 3rd year students can get 4 maximum books </p>
+    </div>
+    <div class="dark-section">
+        <div class="container site-section" id="feature">
+            <h1>Features</h1>
+            <div class="row">
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="single-icon">
+                            <i class="material-icons" aria-hidden="true">remove_red_eye</i>
+                        </div>
+                        <h2>View</h2>
+                        <p>You can view any books of any author and publisher and many more categories in the library</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="single-icon">
+                            <i class="material-icons" aria-hidden="true">search</i>
+                        </div>
+                        <h2>Search</h2>
+                        <p>You can search any books as per books name, author name, publisher name and so on.</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <div class="single-icon">
+                            <i class="material-icons">rate_review</i>
+                        </div>
+                        <h2>Order</h2>
+                        <p>You can check the books in the library and order any available books</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container site-section" id="Gallery">
+        <h2 style="text-align:center">Gallery</h2>
+<!-- light box -->
+
+   <div class="row">
+       <div class="column">
+         <img src="lb_pic1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="lb_pic2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+           <img src="lb_pic3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        
+        <div class="column">
+            <img src="lb_pic4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          </div>
+   </div>
+
+    <div class="row">
+         <div class="column">
+           <img src="lb_pic5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+         </div>
+         <div class="column">
+            <img src="lb_pic6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+         </div>
+        <div class="column">
+            <img src="lb_pic7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="lb_pic8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <img src="lb_pic9.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+           <img src="lb_pic10.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+        </div>
+       <div class="column">
+           <img src="lb_pic11.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+       </div>
+       <div class="column">
+        <img src="lb_pic12.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+    </div>
+   </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+              
+            <div class="modal-content">
+
+                   <div class="mySlides">
+                        <div class="numbertext">1 / 12</div>
+                           <img src="lb_pic1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <div class="numbertext">2 / 12</div>
+                              <img src="lb_pic2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <div class="numbertext">3 / 12</div>
+                              <img src="lb_pic3.jpg" style="width:100%">
+                    </div>
+    
+                    <div class="mySlides">
+                           <div class="numbertext">4 / 12</div>
+                              <img src="lb_pic4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <div class="numbertext">5 / 12</div>
+                             <img src="lb_pic5.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <div class="numbertext">6 / 12</div>
+                             <img src="lb_pic6.jpg" style="width:100%">
+                    </div>
+
+                     <div class="mySlides">
+                          <div class="numbertext">7 / 12</div>
+                              <img src="lb_pic7.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <div class="numbertext">8 / 12</div>
+                              <img src="lb_pic8.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <div class="numbertext">9 / 12</div>
+                              <img src="lb_pic9.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">10/ 12</div>
+                            <img src="lb_pic10.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <div class="numbertext">11 / 12</div>
+                        <img src="lb_pic11.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                    <img src="lb_pic12.jpg" style="width:100%">
+          </div>
+             </div>
+    
+
+     
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+
+        <div class="column">
+           <img class="demo cursor" src="lb_pic1.jpg" style="width:100%" onclick="currentSlide(1)" alt="THIS FIRST PICTURE">
+        </div>
+
+        <div class="column">
+           <img class="demo cursor" src="lb_pic2.jpg" style="width:100%" onclick="currentSlide(2)" alt="THIS IS SECOND PICTURE">
+         </div>
+
+        <div class="column">
+            <img class="demo cursor" src="lb_pic3.jpg" style="width:100%" onclick="currentSlide(3)" alt="THIS IS THIRD PICTURE">
+        </div>
+
+        <div class="column">
+            <img class="demo cursor" src="lb_pic4.jpg" style="width:100%" onclick="currentSlide(4)" alt="THIS IS FOURTH PICTURE">
+        </div>
+
+        <div class="column">
+            <img class="demo cursor" src="lb_pic5.jpg" style="width:100%" onclick="currentSlide(5)" alt="THIS IS FIFTH PICTURE">
+         </div>
+
+         <div class="column">
+            <img class="demo cursor" src="lb_pic6.jpg" style="width:100%" onclick="currentSlide(6)" alt="THIS IS SIX PICTURE">
+         </div>
+
+         <div class="column">
+            <img class="demo cursor" src="lb_pic7.jpg" style="width:100%" onclick="currentSlide(7)" alt="THIS IS SEVEN PICTURE">
+         </div>
+
+         <div class="column">
+            <img class="demo cursor" src="lb_pic8.jpg" style="width:100%" onclick="currentSlide(8)" alt="THIS IS EIGHT PICTURE">
+         </div>
+
+         <div class="column">
+            <img class="demo cursor" src="lb_pic9.jpg" style="width:100%" onclick="currentSlide(9)" alt="THIS IS NINE PICTURE">
+         </div>
+
+         <div class="column">
+            <img class="demo cursor" src="lb_pic10.jpg" style="width:100%" onclick="currentSlide(10)" alt="THIS IS TEN PICTURE">
+         </div>
+
+         <div class="column">
+            <img class="demo cursor" src="lb_pic11.jpg" style="width:100%" onclick="currentSlide(11)" alt="THIS IS ELEVEN PICTURE">
+         </div>
+
+         <div class="column">
+            <img class="demo cursor" src="lb_pic12.jpg" style="width:100%" onclick="currentSlide(12)" alt="THIS IS TWELVE PICTURE">
+         </div>
+
+</div>
+
+
+
+<script>
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+    
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+<!-- end of light box  -->
+
+
+<!-- footer Area -->
+</div>
+<footer>
+        <div class="container" id="Contact">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 footer-navigation">
+                    <h3><a href="#">CTS Library</a></h3>
+                    <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Contact</a></p>
+                    <p class="company-name">CTS © 2018 </p>
+                </div>
+                      <div class="col-md-4 col-sm-6 footer-contacts">
+                         <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                              <p><span class="new-line-span">110,S.N Banerjee Road</span> Esplanade,KolKata</p>
+                         </div>
+                              <div><i class="fa fa-phone footer-contacts-icon"></i>
+                                 <p class="footer-center-info email text-left"> +2400 49933</p>
+                              </div>
+                              <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                                 <p> <a href="#" target="_blank">ctslibrary2018@gmail.com</a></p>
+                              </div>
+                      </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>The Calcutta Technical School</h4>
+                    <p>It is a diploma level Engineering College</p>
+                    <div class="social-links social-icons"><a href="https://facebook.com/CTSPOLYTECHNIC/" target="_blank"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+        </div>
+<footer>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
